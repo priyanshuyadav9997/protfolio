@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#eef2ff" />
+    </linearGradient>
+    <linearGradient id="suit-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.10" />
+    </filter>
+  </defs>
+
+  <!-- Clean Canvas -->
+  <rect width="1200" height="630" fill="url(#bg-grad)" />
+
+  <!-- Subtle Accent Accents -->
+  <circle cx="1100" cy="80" r="280" fill="#6366f1" opacity="0.06" />
+  <circle cx="100" cy="550" r="220" fill="#3b82f6" opacity="0.05" />
+
+  <!-- Outer Border Container Frame -->
+  <rect x="24" y="24" width="1152" height="582" rx="24" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" filter="url(#card-shadow)" />
+
+  <!-- Left Content Column -->
+  <g transform="translate(80, 80)">
+    <!-- Role Pill -->
+    <rect x="0" y="0" width="320" height="36" rx="18" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5" />
+    <circle cx="18" cy="18" r="4" fill="#4f46e5" />
+    <text x="32" y="23" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="bold" fill="#4338ca" letter-spacing="0.5">PRODUCT MANAGER • AI &amp; GROWTH</text>
+
+    <!-- Name -->
+    <text x="0" y="105" font-family="'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="900" fill="#0f172a" letter-spacing="-1">Priyanshu Yadav</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="150" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="500" fill="#475569">Zero-to-One Builder • GenAI MVPs • Strategic Execution</text>
+
+    <!-- Metrics Row Container -->
+    <g transform="translate(0, 195)">
+      <!-- Metric 1 -->
+      <rect x="0" y="0" width="190" height="105" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+      <text x="20" y="42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#4f46e5">2 Live MVPs</text>
+      <text x="20" y="68" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b">Shipped GenAI Apps</text>
+      <text x="20" y="88" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#64748b">CVxpress &amp; Interview Sim</text>
+
+      <!-- Metric 2 -->
+      <rect x="206" y="0" width="190" height="105" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+      <text x="226" y="42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#059669">₹41,000+</text>
+      <text x="226" y="68" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b">Venture Revenue</text>
+      <text x="226" y="88" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#64748b">Zero-to-One Expansion</text>
+
+      <!-- Metric 3 -->
+      <rect x="412" y="0" width="190" height="105" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+      <text x="432" y="42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" fill="#d97706">Top 1%</text>
+      <text x="432" y="68" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e293b">National Strategy</text>
+      <text x="432" y="88" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#64748b">2nd / 200+ Teams</text>
+    </g>
+
+    <!-- Bottom Badges / Socials -->
+    <g transform="translate(0, 335)">
+      <rect x="0" y="0" width="602" height="44" rx="12" fill="#f1f5f9" />
+      <text x="20" y="27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#334155">🎓 MBA • Mittal School of Business, LPU</text>
+      <text x="340" y="27" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#2563eb">🔗 in/priyanshu-yadav-130618356</text>
+    </g>
+  </g>
+
+  <!-- Right Portrait Column -->
+  <g transform="translate(770, 75)">
+    <!-- Portrait Circular Frame with Border and Shadow -->
+    <rect x="0" y="0" width="340" height="390" rx="24" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" />
+    
+    <!-- Stylized Portrait of Priyanshu in suit, sunglasses, tie, smile -->
+    <g transform="translate(15, 10)">
+      <svg viewBox="0 0 100 100" width="310" height="310">
+        <rect width="100" height="100" rx="16" fill="#f1f5f9" />
+        <!-- Navy Blazer -->
+        <path d="M 14 100 L 28 66 L 50 78 L 72 66 L 86 100 Z" fill="url(#suit-grad)" />
+        <path d="M 28 66 L 40 76 L 26 100 Z" fill="#0f172a" />
+        <path d="M 72 66 L 60 76 L 74 100 Z" fill="#0f172a" />
+        
+        <!-- White Shirt -->
+        <polygon points="38,66 62,66 50,88" fill="#ffffff" />
+        <polygon points="34,66 42,75 47,66" fill="#e2e8f0" />
+        <polygon points="66,66 58,75 53,66" fill="#e2e8f0" />
+        
+        <!-- Navy Tie with Golden Floral Motifs -->
+        <polygon points="47,70 53,70 55,96 50,100 45,96" fill="#1e3a8a" />
+        <circle cx="50" cy="78" r="1.3" fill="#f59e0b" />
+        <circle cx="50" cy="86" r="1.3" fill="#f59e0b" />
+        <circle cx="50" cy="94" r="1.1" fill="#f59e0b" />
+
+        <!-- Neck -->
+        <rect x="43" y="56" width="14" height="14" rx="2" fill="#e0a98b" />
+
+        <!-- Head -->
+        <ellipse cx="50" cy="44" rx="20" ry="23" fill="#f3be9e" />
+
+        <!-- Hair -->
+        <path d="M 26 40 C 26 21, 40 15, 50 15 C 60 15, 74 21, 74 40 C 74 32, 70 20, 50 20 C 30 20, 26 32, 26 40 Z" fill="#18181b" />
+        <path d="M 27 33 Q 40 14 60 20 Q 75 24 74 36 Q 67 20 48 22 Z" fill="#27272a" />
+
+        <!-- Ears -->
+        <ellipse cx="29" cy="46" rx="3" ry="5" fill="#e0a98b" />
+        <ellipse cx="71" cy="46" rx="3" ry="5" fill="#e0a98b" />
+
+        <!-- Beard & Mustache -->
+        <path d="M 37 54 Q 50 58 63 54 Q 61 66 50 66 Q 39 66 37 54 Z" fill="#27272a" opacity="0.9" />
+        <path d="M 41 53 Q 50 56 59 53 Q 50 54 41 53 Z" fill="#18181b" />
+
+        <!-- Smile -->
+        <path d="M 42 54 Q 50 63 58 54 Z" fill="#ffffff" stroke="#881337" stroke-width="0.5" />
+
+        <!-- Sunglasses -->
+        <rect x="33" y="36" width="14" height="11" rx="3" fill="#3b0764" opacity="0.9" stroke="#94a3b8" stroke-width="1.2" />
+        <rect x="53" y="36" width="14" height="11" rx="3" fill="#3b0764" opacity="0.9" stroke="#94a3b8" stroke-width="1.2" />
+        <line x1="47" y1="39" x2="53" y2="39" stroke="#94a3b8" stroke-width="1.5" />
+        <line x1="35" y1="38" x2="43" y2="45" stroke="#ffffff" stroke-width="1" opacity="0.7" />
+        <line x1="55" y1="38" x2="63" y2="45" stroke="#ffffff" stroke-width="1" opacity="0.7" />
+      </svg>
+    </g>
+
+    <!-- Status pill inside portrait box -->
+    <rect x="35" y="332" width="270" height="36" rx="18" fill="#059669" />
+    <circle cx="55" cy="350" r="5" fill="#34d399" />
+    <text x="72" y="355" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">OPEN FOR PRODUCT ROLES</text>
+  </g>
+
+  <!-- Bottom Global Footnote Bar -->
+  <rect x="24" y="540" width="1152" height="66" rx="0 0 24 24" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="80" y="579" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#64748b">Live Executive Portfolio &amp; Verified Credentials</text>
+  <text x="880" y="579" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="bold" fill="#4f46e5">Explore Interactive Case Studies →</text>
+</svg>
